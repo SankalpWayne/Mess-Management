@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SlimpleTextClientActivity"
+    android:background="@drawable/register_table">
+
+    <TextView
+        android:layout_width="292dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="42dp"
+        android:text="Mess Management"
+        android:textAlignment="center"
+        android:paddingLeft="35dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="25dp" />
+
+
+
+
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dp"
+        android:text="New User. Sign In"
+        android:textSize="20dp"
+        android:typeface="serif"
+        android:textColor="#ff00ee"
+        android:id="@+id/reg"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="169dp"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="nextact"
+        android:text="Login" />
+
+    <EditText
+        android:id="@+id/usr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="179dp"
+        android:hint="email"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="247dp"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:paddingTop="15dp"/>
+
+</RelativeLayout>
